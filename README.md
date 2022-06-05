@@ -37,6 +37,9 @@
   <a href = "mailto:imarconyls@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
   <a href="https://www.linkedin.com/in/ian-marcony/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
 
+ <a href="https://www.twitch.tv/ian_marcony" target="_blank"><img src="https://img.shields.io/badge/Twitch-9146FF?style=for-the-badge&logo=twitch&logoColor=white" target="_blank"></a>
+ <a href="youtube.com/channel/UCdBQWHfHzcvdDOQK_tzjxDQ" target="_blank"><img src="	https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" target="_blank"></a>
+
 - 🎓 &nbsp; Studying **Computer Engeneering** at <a href="https://www.uea.edu.br">Universidade do Estado do Amazonas</a>.
 - 💼 &nbsp; Working with Software Development at <a href="https://www.itriad.org.br/">ITRIAD</a>
 
