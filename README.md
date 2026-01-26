@@ -41,7 +41,7 @@
  <a href="https://youtube.com/channel/UCdBQWHfHzcvdDOQK_tzjxDQ" target="_blank"><img src="	https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" target="_blank"></a>
 
 - 🎓 &nbsp; Studying **Computer Engeneering** at <a href="https://www.uea.edu.br">Universidade do Estado do Amazonas</a>.
-- 💼 &nbsp; Working with Software Development at <a href="https://www.itriad.org.br/">ITRIAD</a>
+- 💼 &nbsp; Working with Software Development at <a href="https://www.venturus.org.br/">Venturus</a>
 
  
   ![Snake animation](https://github.com/IanMarcony/IanMarcony/blob/output/github-contribution-grid-snake.svg)
