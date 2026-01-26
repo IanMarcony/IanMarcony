@@ -1,23 +1,41 @@
-name: Generate Datas
+name: Generate Snake
 
 on:
-  schedule: # execute every 12 hours
-    - cron: "* */12 * * *"
+  # Executa automaticamente a cada 12 horas
+  schedule:
+    - cron: "0 */12 * * *" 
+  
+  # Permite executar manualmente na aba "Actions"
   workflow_dispatch:
+  
+  # Executa em todo push na branch master/main (opcional, bom para testar)
+  push:
+    branches:
+    - master
+    - main
 
 jobs:
   build:
-    name: Jobs to update datas
     runs-on: ubuntu-latest
+    
+    # Permissões necessárias para gravar no repositório
+    permissions:
+      contents: write
+    
     steps:
-      # Snake Animation
-      - uses: Platane/snk@master
+      - uses: actions/checkout@v3
+
+      # Gera a animação da cobrinha
+      - uses: Platane/snk@v3
         id: snake-gif
         with:
-          github_user_name: IanMarcony
-          svg_out_path: dist/github-contribution-grid-snake.svg
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      - uses: crazy-max/ghaction-github-pages@v4.2.0
+      # Faz o deploy (envio) para a branch de saída
+      - uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
           build_dir: dist
